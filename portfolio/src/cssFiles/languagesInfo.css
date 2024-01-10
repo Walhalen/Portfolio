@@ -34,3 +34,23 @@
     align-items: center;
     margin-bottom: 10px;
   }
+
+  @media (max-width: 780px) {
+
+    .LanguagesInfoField{
+        flex-direction: column;
+        height: 650px 
+    }
+    .LanguagesIMG{
+        padding: none;
+        width: 95%;
+        height: 40%;
+    }
+
+    .LanguagesInfo{
+        justify-content: start;
+        width: 100%;
+        height: 60%;
+    }
+    
+  }

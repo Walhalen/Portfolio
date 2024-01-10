@@ -17,9 +17,7 @@ const MyprojectsMenu = ({setProjectName} : Props) => {
         <button className='MyProjectButton' onClick={() => setProjectName("Ecoware")}>
             Ecoware
         </button>
-        <button className='MyProjectButton' onClick={() => setProjectName("Appolica CP")}>
-            Appolica CP
-        </button>
+
     </nav>
   )
 }

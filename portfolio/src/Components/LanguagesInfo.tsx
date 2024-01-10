@@ -44,7 +44,7 @@ const LanguagesInfo = () => {
                         <h1 style={{fontSize: "30px"}}>
                             Learning proccess: 
                         </h1>
-                        <h1 style={{fontSize: "21px", textAlign: "center", marginTop: "30px"}}>
+                        <h1 style={{fontSize: "21px", textAlign: "center", marginTop: "10px"}}>
                             I started learning the language since 8th grade. It was quite difficult at first, but after learning it for 3 years it started to get easier. Now I can say that I can work in c. 
                         </h1>
                     </div>
@@ -59,7 +59,7 @@ const LanguagesInfo = () => {
                             Learning proccess: 
                         </h1>
                         <h1 style={{fontSize: "21px", textAlign: "center", marginTop: "30px"}}>
-                            I started learning the language since 8th grade. It was quite difficult at first, but after learning it for 3 years it started to get easier. Now I can say that I can work in c. 
+                            I started learning c++ in tenth grade. I've had some great homework over the years, but I haven't shown them here. My impressions of c++ are pretty good and I quite like it. 
                         </h1>
                     </div>
                 </>
@@ -73,7 +73,7 @@ const LanguagesInfo = () => {
                             Learning proccess: 
                         </h1>
                         <h1 style={{fontSize: "21px", textAlign: "center", marginTop: "30px"}}>
-                            I started learning the language since 8th grade. It was quite difficult at first, but after learning it for 3 years it started to get easier. Now I can say that I can work in c. 
+                         Python was the third language I started with. Compared to c and c++ it seemed pretty easy and simple. But then I realized that python is a pretty nice language because you can do a lot of things with it. I haven't had any big python projects, but I've used it for quite a few small ones and I definitely like it. 
                         </h1>
                     </div>
                 </>
@@ -86,8 +86,8 @@ const LanguagesInfo = () => {
                         <h1 style={{fontSize: "30px"}}>
                             Learning proccess: 
                         </h1>
-                        <h1 style={{fontSize: "21px", textAlign: "center", marginTop: "30px"}}>
-                            I started learning the language since 8th grade. It was quite difficult at first, but after learning it for 3 years it started to get easier. Now I can say that I can work in c. 
+                        <h1 style={{fontSize: "21px", textAlign: "center", marginTop: "20px"}}>
+                            Java is my favorite language. What I like most is how many things you can do with it. I also like how tidy it is and how much potential it has. I've had quite a few big home runs with java as my hardest ones have been synchronizing processes. From the experiences I've had so far, I can say it's my favorite programming language.  
                         </h1>
                     </div>
                 </>
@@ -101,8 +101,8 @@ const LanguagesInfo = () => {
                             Learning proccess: 
                         </h1>
                         <h1 style={{fontSize: "21px", textAlign: "center", marginTop: "30px"}}>
-                            I started learning the language since 8th grade. It was quite difficult at first, but after learning it for 3 years it started to get easier. Now I can say that I can work in c. 
-                        </h1>
+                           Flutter is one of the last languages I've picked up. I first wrote in it at Hack TUES 2023. It has a lot of good features, but I like the next language I've marked much better. While not as bad I wouldn't write many more projects in flutter. 
+                        </h1> 
                     </div>
                 </>
             }
@@ -115,7 +115,7 @@ const LanguagesInfo = () => {
                             Learning proccess: 
                         </h1>
                         <h1 style={{fontSize: "21px", textAlign: "center", marginTop: "30px"}}>
-                            I started learning the language since 8th grade. It was quite difficult at first, but after learning it for 3 years it started to get easier. Now I can say that I can work in c. 
+                            React JS is the last programming language I have studied. I've been writing in it every day since I picked it up. My thesis is in this language and a lot of other projects too. I can say it's my favorite front end programming language.
                         </h1>
                     </div>
                 </>

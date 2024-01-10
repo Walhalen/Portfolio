@@ -27,14 +27,38 @@
 }
 
 .projectIMG{
-    height: 400px;
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+
+    border-radius: 20px;
     margin-left: 40px;
 }
 
 .githubLink{
     font-size: 20px;
     color: rgb(169, 169, 64);
+}
+
+@media  (max-width: 780px) {
+    .MyProjectButton{
+        font-size: 15px;
+    }
+
+    .MyProjectField{
+        flex-direction: column;
+        margin: 0px; 
+    }
+
+    .projectInfoText{
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .projectIMG{
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+    }
 }

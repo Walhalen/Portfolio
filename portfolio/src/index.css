@@ -61,7 +61,7 @@ main{
 
 
 .forMeInfo{
-   width: 70%;
+    width: 70%;
     height: fit-content;
     padding-top: 50px;
     font-size: 55px;
@@ -106,6 +106,23 @@ main{
     margin-top: 50px;
 }
 
+
+.Footer{
+    margin-top: 20px;
+    height: 200px;
+    background-color: grey;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+#hashTag{
+   
+    font-size: 70px;
+}
+
 @media (max-width: 1300px) {
     .FirstSection{
         gap: 20px;
@@ -131,6 +148,28 @@ main{
 
     .secondInfoText{
         font-size: 15px;
+    }
+}
+
+@media  (max-width : 780px) {
+    .headerTitle{
+        font-size: 25px;
+    }
+
+    .header{
+        flex-direction: row-reverse;
+    }
+
+    .FirstSection{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forMeInfo{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
     }
 }
 
