@@ -1,0 +1,40 @@
+.MyProjectButton{
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 2px solid #fad02c;
+    margin: 20px; 
+}
+
+.MyProjectButton:hover{
+    background-color: rgb(234, 234, 234);
+    border-radius: 10px;
+    color: rgb(169, 169, 64);
+}
+
+
+.MyProjectField{
+    margin: 50px; 
+    display: flex;
+    justify-content: center;
+}
+
+
+.projectInfoText{
+    width: 400px;
+    font-size: 21px;
+}
+
+.projectIMG{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.githubLink{
+    font-size: 20px;
+    color: rgb(169, 169, 64);
+}
