@@ -10,7 +10,7 @@ button{
 }
 
 .header{
-    width: 800px; 
+    width: 500px; 
     height: 120px;
     border-bottom: 1.5px solid rgb(221, 221, 95);
     display: flex;
@@ -21,7 +21,6 @@ button{
 
 .headerTitle{
     height: 100%;
-    width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +29,6 @@ button{
 }
 
 .navBar{
-    width: fit-content;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -50,28 +48,43 @@ button{
 
 
 .forMeInfo{
-    width: 100%;
-    height: fit-content;
-    padding: 50px;
- 
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    gap: 30px;
     
+    height: fit-content;
+    padding-top: 50px;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+   
 }
 
 .infoText2{
     margin-top: 10px;
-    font-size: 19px;
+    font-size: 20px;
     color: gray; 
-    width: 300px;
+    width: 450px;
 }
 
 .myImages{
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid black;
     border-radius: 10px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 
+.secondInfoText{
+    width: 500px;
+    font-size: 21px;
+    text-align: center;
+    color: grey;
+}
+
+.arrowIconDown{
+    font-size: 70px;
+    margin-top: 50px;
 }
