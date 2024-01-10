@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+button{
+    border: none;
+    background-color: white;
+}
+
+.header{
+    width: 800px; 
+    height: 120px;
+    border-bottom: 1.5px solid rgb(221, 221, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.headerTitle{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.navBar{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navBarButton{
+    font-size: 18px;
+    
+    
+}
+
+.navBarButton:hover{
+    color: rgb(169, 169, 64);
+}
+
+
+.forMeInfo{
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+ 
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.infoText2{
+    margin-top: 10px;
+    font-size: 19px;
+    color: gray; 
+    width: 300px;
+}
+
+.myImages{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
