@@ -1,15 +1,26 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
-export const Header = () => {
+
+type Props = {
+    refLanguages: any
+    refProjects: any
+}
+
+export const Header = ({refLanguages, refProjects} : Props) => {
+    
   return (
     <header className='header'>
 
         <nav className='navBar'>
             <ul style={{display: 'flex', gap: "40px"}}>
-                <button className='navBarButton'>
-                    Langueges
+                <button className='navBarButton' onClick={() => {
+                    refLanguages.current?.scrollIntoView({behavior: "smooth"})  
+                }}>
+                    Languages
                 </button>
-                <button className='navBarButton'>
+                <button className='navBarButton' onClick={() => {
+                    refProjects.current?.scrollIntoView({behavior: "smooth"})  
+                }}>
                     Projects
                 </button>
             </ul>

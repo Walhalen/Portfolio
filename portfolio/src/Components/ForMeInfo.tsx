@@ -6,7 +6,7 @@ export const ForMeInfo = () => {
   return (
     <div className='forMeInfo'>
         <div>
-            <h3 style={{width: "550px", height: "fit-content"}}>
+            <h3 className='infoText1'>
               Hello my name is Ivan Postolov.
             </h3>
             <h1 className='infoText2'> 
